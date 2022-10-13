@@ -1,0 +1,66 @@
+body{
+    font-family: Arial;
+}
+
+.title {
+    font-family: "Times New Roman";
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+span {
+    color: green;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    max-width: 450px;
+}
+
+.main-info {
+    max-width: 500px;
+}
+
+.main-info ul {
+    padding-left: 15px;
+}
+
+.main-info a {
+    font-size: 15px;
+    color: #006dd4;
+}
+
+.form{
+max-width: 350px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.form input{
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #d7d7d7;
+}
+
+.form button{
+    background: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+}
